@@ -18,6 +18,7 @@
 		echo '<div class="banner">single quote</div>';
 	echo "</div>";
 
+
 ?>
 </body>
 </html>
