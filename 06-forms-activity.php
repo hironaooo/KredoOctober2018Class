@@ -59,6 +59,42 @@
 	}
 	?>
 	<!-- end of php -->
+	<!-- start of teacher's code -->
+		<!-- <?php 
+
+		// $tshirt = 250;
+		// $longp  = 500;
+		// $shortp = 50;
+
+		// $clothing = 3;
+		// $quantity = 3;
+		// $amount   = 1000;
+
+		// if( $clothing == 1){
+		// 	$cloth = "Tshirt";
+		// 	$total = ($tshirt * 0.80) * $quantity;
+		// }elseif( $clothing == 2){
+		// 	$cloth = "Long Pants";
+		// 	$total = ($longp * 0.70) * $quantity;
+		// }elseif($clothing == 3){
+		// 	$cloth = "Short pants";
+		// 	$total = $shortp * $quantity;
+		// }
+
+		// $change = $amount - $total;
+		// if( $change > 0){
+		// 	$caption = "Your change is ". $change;
+		// }else{
+		// 	$caption = "You don't have a change";
+		// }
+
+		// echo "The clothing is {$cloth} and quantity is {$quantity}";
+		// echo "<br> The amount to be paid is {$total}";
+		// echo "<br>.  " . $caption;
+		?> -->
+
+	<!-- end of teacher's code -->
+
 	<!-- start of html -->
 	<br><br><hr>
 	<div class="row">

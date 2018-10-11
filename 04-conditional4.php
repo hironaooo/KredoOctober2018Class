@@ -7,12 +7,12 @@ if ($num % 2 == 0) {
 	echo "Odd";
 }
 
-// 下のも同じ
-$num = 10;
-if ($num % 2 == 0) {
-	echo "Even";
-}else {
-	echo "Odd";
-}
+// // 下のも同じ
+// $num = 10;
+// if ($num % 2 == 0) {
+// 	echo "Even";
+// }else {
+// 	echo "Odd";
+// }
 
  ?>

@@ -59,47 +59,81 @@
 	}
 	?>
 	<!-- end of php -->
+	<!-- start of teacher's code -->
+		<!-- <?php 
+
+		// $tshirt = 250;
+		// $longp  = 500;
+		// $shortp = 50;
+
+		// $clothing = 3;
+		// $quantity = 3;
+		// $amount   = 1000;
+
+		// if( $clothing == 1){
+		// 	$cloth = "Tshirt";
+		// 	$total = ($tshirt * 0.80) * $quantity;
+		// }elseif( $clothing == 2){
+		// 	$cloth = "Long Pants";
+		// 	$total = ($longp * 0.70) * $quantity;
+		// }elseif($clothing == 3){
+		// 	$cloth = "Short pants";
+		// 	$total = $shortp * $quantity;
+		// }
+
+		// $change = $amount - $total;
+		// if( $change > 0){
+		// 	$caption = "Your change is ". $change;
+		// }else{
+		// 	$caption = "You don't have a change";
+		// }
+
+		// echo "The clothing is {$cloth} and quantity is {$quantity}";
+		// echo "<br> The amount to be paid is {$total}";
+		// echo "<br>.  " . $caption;
+		?> -->
+
+	<!-- end of teacher's code -->
+
 	<!-- start of html -->
 	<br><br><hr>
 	<div class="row">
 		<div class="col-md-6">
 			<div class="col-md-6">
-				<p>Employees Log</p>
+				<p>Customer Information</p>
 				<br>
 				<form action="" method="POST">
-					<label for="name">Name : </label>
-					<input type="text" name="name">
-					<br>
-					<br>
-					<label for="age">Age : </label>
-					<input type="number" name="age">
-					<br>
-					<br>
-				</form>
+				<label for="name">Name : </label>
+				<input type="text" name="name">
+				<br>
+				<br>
+				<label for="age">Age : </label>
+				<input type="number" name="age">
+				<br>
+				<br>
 			</div>
 			<div class="col-md-6">
-				<form action="" method="POST">
-					<label for="product">Product : </label>
-					<select name="product">
-						<option value=""> -Select- </option>
-						<option value="tshirt">T-SHIRT</option>
-						<option value="longspants">Longs Pants</option>
-						<option value="hoody">Hoody</option>
-					</select>
-					<br>
-					<br>
-					<label for="quantity">Quantity : </label>
-					<input type="number" name="quantity">
-					<br><br>
-					<input type="checkbox" name="onsale" value="On Sale?">On Sale?<br>
-					<p>If Age is 60 above, 12% discount also.</p>
-				</form>
+				<label for="product">Product : </label>
+				<select name="product">
+					<option value=""> -Select- </option>
+					<option value="tshirt">T-SHIRT</option>
+					<option value="longspants">Longs Pants</option>
+					<option value="hoody">Hoody</option>
+				</select>
+				<br>
+				<br>
+				<label for="quantity">Quantity : </label>
+				<input type="number" name="quantity">
+				<br><br>
+				<input type="checkbox" name="onsale" value="On Sale?">On Sale?<br>
+				<p>If Age is 60 above, 12% discount also.</p>
 			</div>
 		</div>
-			<div class="col-md-6">
-			</div>
+		<div class="col-md-6">
+		</div>
 	</div>
-			<input class="submit" type="submit" value="SUBMIT" name="submit">
+		<input class="submit" type="submit" value="SUBMIT" name="submit">
+	</form>
 	<!-- end of html -->
 </body>
 </html>
