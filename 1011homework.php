@@ -21,25 +21,29 @@
 		<input class="submit" type="submit" value="submit" name="submit">
 	</form>
 
-	<?php  
+	<?php  	
+		// 1. first number should be greater than secound number
+		function caution1(){
+			echo "First number should for the following.";
+		}
+		// 2. All fields must be required
+		function caution2(){
+			echo "All fields must be required.";
+		}
+
+		// 3. Compute the Sum of First and Secound number
+		function displaySum(){
+			global $firstNumber;
+			global $secondNumber;
+			$sum = $firstNumber + $secondNumber;
+			echo "The sum is {$sum}";
+			}
+
 		if (isset($_POST['submit'])) {
 			$firstNumber = $_POST['firstnumber'];
 			$secondNumber = $_POST['secondnumber'];
-			// 1. first number should be greater than secound number
-			function caution1(){
-				echo "First number should for the following.";
-			}
-			// 2. All fields must be required
-			function caution2(){
-				echo "All fields must be required.";
-			}
-			// 3. Compute the Sum of First and Secound number
-			function displaySum(){
-				global $firstNumber;
-				global $secondNumber;
-				$sum = $firstNumber + $secondNumber;
-				echo "The sum is {$sum}";
-			}
+		
+		
 			echo "<hr>";
 			
 			if ($firstNumber == "" || $secondNumber == "") {
@@ -53,3 +57,4 @@
 	 ?>
 </body>
 </html>
+  
