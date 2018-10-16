@@ -19,7 +19,7 @@
 	<p>Output</p>
 	<?php 
 		if ( isset($_POST['submit'])) {
-			$number = $_POST['number'];;
+			$number = $_POST['number'];
 			$cols = 4;
 			$ctr = 1;
 			$colmd = 12/$cols;
