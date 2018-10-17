@@ -77,20 +77,23 @@
 				echo "</div>";
 				// 最大値・最小値について
 				$max = $numbers[0]; 
+				$min = $numbers[0];
+				$sum = $numbers[0];
 				for ($i=1;$i<count($numbers);$i++){
 				  if($max<$numbers[$i]){
 				     $max=$numbers[$i];
 				  }
-				}
-				echo "The highest Grade is " .$max; 
-				echo "<br>";
-				$min = $numbers[0];
-				for ($i=1;$i<count($numbers);$i++){
 				  if($min>$numbers[$i]){
 				     $min=$numbers[$i];
 				  }
+				  $sum += $numbers[$i];
+
 				}
-				echo "The lowest Grade is " .$min; 		
+				echo "The highest Grade is " .$max; 
+				echo "<br>";
+				echo "The lowest Grade is " .$min; 	
+				echo "<br>";
+				echo "The average is " .($sum / $count);
 			}		
 		?>
 	</div>
